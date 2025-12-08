@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
+import s from "./header.module.scss";
+import PrimaryButton from "../primary-button/PrimaryButton";
 
 const Header = () => {
   return (
-    <header>
-      <h1>Médicos & Dentistas</h1>
-      <nav>
-        <Link>Home</Link>
-        <Link>Seja voluntário</Link>
+    <header className={s.header}>
+      <div className={s.headerTitle}>
+        <img src="/public/coracao.png" />
+        <h2>Médicos & Dentistas</h2>
+      </div>
+      <nav className={s.headerLinks}>
+        <Link to="/">Home</Link>
+        <PrimaryButton to="/voluntary" title="Seja voluntário" />
       </nav>
     </header>
   );

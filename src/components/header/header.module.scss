@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  padding: 25px 28px;
+
+  justify-content: space-between;
+
+  .headerTitle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .headerLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
