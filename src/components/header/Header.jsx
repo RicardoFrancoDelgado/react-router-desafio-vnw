@@ -10,7 +10,7 @@ const Header = () => {
         <h2>Médicos & Dentistas</h2>
       </div>
       <nav className={s.headerLinks}>
-        <Link to="/">Home</Link>
+        <Link className={s.linkHome} to="/">Home</Link>
         <PrimaryButton to="/voluntary" title="Seja voluntário" />
       </nav>
     </header>

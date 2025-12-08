@@ -14,5 +14,11 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
+
+    .linkHome {
+        font-weight: 400;
+        text-decoration: none;
+    }
   }
+
 }
