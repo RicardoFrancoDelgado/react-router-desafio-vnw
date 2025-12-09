@@ -4,8 +4,10 @@ import Mission from "../../components/mission/Mission";
 const Home = () => {
   return (
     <>
-      <Main />
-      <Mission />
+      <main>
+        <Main />
+        <Mission />
+      </main>
     </>
   );
 };
