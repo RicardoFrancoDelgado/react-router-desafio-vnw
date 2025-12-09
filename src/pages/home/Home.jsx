@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer";
 import Impact from "../../components/impact/Impact";
 import Main from "../../components/main/Main";
 import Mission from "../../components/mission/Mission";
@@ -10,6 +11,7 @@ const Home = () => {
         <Mission />
         <Impact />
       </main>
+      <Footer />
     </>
   );
 };

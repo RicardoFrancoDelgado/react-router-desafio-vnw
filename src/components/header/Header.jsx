@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={s.header}>
       <div className={s.headerTitle}>
-        <img src="/public/coracao.png" />
+        <img src="/coracao.png" />
         <Link className={s.linkHome} to="/">
           Médicos & Dentistas
         </Link>
