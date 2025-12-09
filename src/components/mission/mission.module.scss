@@ -1,0 +1,21 @@
+.missionSection {
+  padding: 80px 90px;
+  background-color: #00745a;
+
+  h2 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 31px;
+  }
+
+  p {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 48px;
+  }
+
+  .missionCardSection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

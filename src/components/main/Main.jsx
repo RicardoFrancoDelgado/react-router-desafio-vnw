@@ -1,3 +1,4 @@
+import Mission from "../mission/Mission";
 import PrimaryButton from "../primary-button/PrimaryButton";
 import s from "./main.module.scss";
 
@@ -19,7 +20,9 @@ const Main = () => {
 
         <div className={s.mainBtn}>
           <PrimaryButton to="/voluntary" title="Seja voluntário" />
-          <a href="#" className={s.mainBtnDotted}>Como ajudar</a>
+          <a href="#" className={s.mainBtnDotted}>
+            Como ajudar
+          </a>
         </div>
       </section>
 
