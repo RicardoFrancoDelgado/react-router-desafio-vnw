@@ -7,10 +7,14 @@ const Header = () => {
     <header className={s.header}>
       <div className={s.headerTitle}>
         <img src="/public/coracao.png" />
-        <h2>Médicos & Dentistas</h2>
+        <Link className={s.linkHome} to="/">
+          Médicos & Dentistas
+        </Link>
       </div>
       <nav className={s.headerLinks}>
-        <Link className={s.linkHome} to="/">Home</Link>
+        <Link className={s.linkHome} to="/">
+          Home
+        </Link>
         <PrimaryButton to="/voluntary" title="Seja voluntário" />
       </nav>
     </header>
