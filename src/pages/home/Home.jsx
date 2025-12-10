@@ -5,14 +5,11 @@ import Mission from "../../components/mission/Mission";
 
 const Home = () => {
   return (
-    <>
-      <main>
-        <Main />
-        <Mission />
-        <Impact />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Main />
+      <Mission />
+      <Impact />
+    </main>
   );
 };
 
