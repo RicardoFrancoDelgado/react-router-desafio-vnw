@@ -1,0 +1,25 @@
+.voluntaryPage {
+  border-top: 2px solid black;
+  text-align: center;
+
+  padding: 50px 58px;
+
+  h2 {
+    font-size: 60px;
+    margin-bottom: 23px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 44px;
+
+    
+  }
+}
