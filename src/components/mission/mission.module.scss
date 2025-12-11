@@ -16,6 +16,8 @@
 
   .missionCardSection {
     display: flex;
+    flex-wrap: wrap;
+    gap: 3.063rem;
     justify-content: space-evenly;
   }
 }
