@@ -50,3 +50,17 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .textSection {
+    width: 100%;
+  }
+  
+  .imageSection {
+    display: none;
+    visibility: hidden;
+  }
+  .doctorImage {
+    display: none;
+  }
+}

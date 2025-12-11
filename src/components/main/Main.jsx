@@ -5,7 +5,7 @@ import s from "./main.module.scss";
 const Main = () => {
   return (
     <section className={s.mainContainer}>
-      <section>
+      <section className={s.textSection}>
         <div className={s.mainBudget}>
           <img src="/Frame.png" alt="icone de um aparelho de médico" />
           <p>Saúde para todos</p>
@@ -26,8 +26,8 @@ const Main = () => {
         </div>
       </section>
 
-      <section>
-        <img src="/doutor.png" alt="Imagem de um médico sorrindo" />
+      <section className={s.imageSection}>
+        <img src="/doutor.png" alt="Imagem de um médico sorrindo" className={s.doctorImage}/>
       </section>
     </section>
   );
