@@ -45,3 +45,29 @@ footer {
     margin-top: 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1.25rem;
+  }
+  .footerContactContainer {
+    gap: 2.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerContactContainer .footerContactContainerSecond {
+    align-items: center;
+  }
+  .footerCopyright {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 1.25rem 0.75rem;
+  }
+  .footerContactContainer {
+    gap: 1rem;
+  }
+}

@@ -92,3 +92,45 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .voluntaryPage {
+    padding: 2.5rem 1.25rem;
+  }
+  .voluntaryPage h2 {
+    font-size: 2rem;
+  }
+  .voluntaryPage p {
+    font-size: 1rem;
+  }
+  .voluntaryPage .cards {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .formularioVoluntario {
+    padding: 4% 3%;
+  }
+  .formularioVoluntario .formulario {
+    padding: 24px 18px;
+  }
+  .formularioVoluntario .formulario fieldset .nomeEmail {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .voluntaryPage {
+    padding: 1.25rem 0.75rem;
+  }
+  .voluntaryPage h2 {
+    font-size: 1.4rem;
+  }
+  .voluntaryPage p {
+    font-size: 0.95rem;
+  }
+  .formularioVoluntario .formulario button {
+    padding: 14px 22px;
+    font-size: 16px;
+  }
+}

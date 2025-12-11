@@ -17,3 +17,26 @@
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .cardBlack {
+    width: 100%;
+    max-width: 36rem;
+    padding: 2rem 1.5rem;
+  }
+  .cardBlack h3 {
+    font-size: 2rem;
+  }
+  .cardBlack p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardBlack {
+    padding: 1.25rem 1rem;
+  }
+  .cardBlack h3 {
+    font-size: 1.4rem;
+  }
+}

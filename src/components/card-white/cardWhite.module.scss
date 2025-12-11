@@ -13,3 +13,23 @@
     margin-bottom: 1.875rem;
   }
 }
+
+@media (max-width: 768px) {
+  .cardWhite {
+    width: 100%;
+    max-width: 36rem;
+    padding: 2rem 1.5rem;
+  }
+  .cardWhite h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardWhite {
+    padding: 1.25rem 1rem;
+  }
+  .cardWhite h3 {
+    font-size: 1.125rem;
+  }
+}

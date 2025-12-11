@@ -21,3 +21,31 @@
     justify-content: space-evenly;
   }
 }
+
+@media (max-width: 768px) {
+  .missionSection {
+    padding: 2.5rem 1.25rem;
+  }
+  .missionSection h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .missionSection p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .missionCardSection {
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .missionSection h2 {
+    font-size: 1.5rem;
+  }
+  .missionSection p {
+    font-size: 0.95rem;
+  }
+}

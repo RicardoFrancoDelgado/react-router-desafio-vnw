@@ -55,12 +55,63 @@
   .textSection {
     width: 100%;
   }
-  
+
   .imageSection {
     display: none;
     visibility: hidden;
   }
   .doctorImage {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem 0.75rem;
+    margin-bottom: 4rem;
+  }
+  .mainContainer section {
+    width: 100%;
+    gap: 2rem;
+  }
+  .mainContainer section h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .mainContainer section p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .mainContainer section .mainBtn {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: stretch;
+  }
+  .mainContainer section .mainBudget {
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    padding: 0.5rem 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .mainContainer section {
+    gap: 1rem;
+  }
+  .mainContainer section h1 {
+    font-size: 1.3rem;
+  }
+  .mainContainer section p {
+    font-size: 0.95rem;
+  }
+  .mainContainer section .mainBtnDotted {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
   }
 }
